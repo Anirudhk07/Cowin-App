@@ -24,7 +24,7 @@ var token;
 String path = "";
 Future<http.Response> postRequest() async {
   print('-------------------------in post------------');
-  Map data = {'mobile': '9423119290'};
+  Map data = {'mobile': ''};
   //encode Map to JSON
   var body = json.encode(data);
   var url = 'https://cdn-api.co-vin.in/api/v2/auth/public/generateOTP';
